@@ -1,0 +1,53 @@
+.post-container {
+    max-width: 700px;
+    width: 100%;
+    background-color: lightslategray;
+    color: #fff;
+    margin-bottom: 25px;
+    padding: 20px;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-color: lightgreen;
+    display: none;
+  }
+  .overlay.overlayActive {
+    display: block;
+  }
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .add-post {
+    position: fixed;
+    right: 50px;
+    top: 50px;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .overlay-add {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    padding: 50px;
+    display: none;
+  }
+  .overlay-add.activeOverlayAdd {
+    display: block;
+  }
+  

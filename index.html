@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 10</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h1>Posts Example</h1>
+      <div id="posts-wraper"></div>
+      <div class="overlay" id="overlay">
+        <div class="content" id="contentPost"></div>
+        <div class="close" id="close">X</div>
+      </div>
+
+      <div class="add-post" id="add">+</div>
+      <div class="overlay-add" id="overlay-add">
+        <form action="" id="form-post">
+          <input type="text" id="title-post" name="post" />
+          <button>პოსტის დამატება</button>
+        </form>
+      </div>
+    </section>
+    <section>
+      <h3>Load More Users - Reqres</h3>
+      <div id="api-users">
+        <ul id="ul-users"></ul>
+      </div>
+      <button id="btn-prev-users">Load Previous Users</button>
+      <button id="btn-load-more">Load Next Users</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
